@@ -1,71 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" href="./favicon.ico.png" type="image/x-icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../src/assets/style/style.css">
-  <title>Forms</title>
-</head>
-<body>
-  <div id="main" class="main">
-    <div class="main__left"></div>
-    <div class="main__right">
-      <form action="" class="main__form">
-        <label for="name">
-          Name:
-          <input type="text" name="name" id="name">
-        </label>
-          Email:
-        <label for="email">
-          <input type="email" name="email" id="email">
-        </label>
-        <div class="main__radios">
-          <p>Technologies</p>
-          <label for="frontend">
-            <input type="radio" name="frontend" id="frontend">
-            Frontend
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="./favicon.ico.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/assets/style/style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div class="main__left">
+        <img src="../src/assets/images/florian-klauer-mk7D-4UCfmg-unsplash.jpg" alt="" srcset="">
+      </div>
+      <div class="main__right">
+        <form class="main__form">
+          <label for="name">
+            Name:
+            <input type="text" name="name" id="name" />
           </label>
-          <label for="backend">
-            <input type="radio" name="backend" id="backend">
-            Backend
+          <label for="email">
+            Email:
+            <input type="email" name="email" id="email" />
           </label>
-          <label for="fullstack">
-            <input type="radio" name="fullstack" id="fullstack">
-            Full-Stack
-          </label>
-        </div>
-        <label for="html">
-          <input type="checkbox" name="html" id="html">
-          HTML
-        </label>
-        <label for="html">
-          <input type="checkbox" name="CSS" id="CSS">
-          CSS
-        </label>
-        <label for="html">
-          <input type="checkbox" name="Javascript" id="Javascript">
-          Javascript
-        </label>
-        <label for="html">
-          <input type="checkbox" name="NodeJs" id="NodeJs">
-          NodeJs
-        </label>
-        <label for="html">
-          <input type="checkbox" name="React" id="React">
-          React
-        </label>
-        <label for="html">
-          <input type="checkbox" name="Angular" id="Angular">
-          Angular
-        </label>
-        <label for="html">
-          <input type="checkbox" name="Vue" id="Vue">
-          VueJs
-        </label>
-      </form>
+          <div class="main__radios">
+            <span>Area of expertise</span>
+            <label for="frontend">
+              <input type="radio" name="frontend" id="frontend" />
+              Frontend
+            </label>
+            <label for="backend">
+              <input type="radio" name="backend" id="backend" />
+              Backend
+            </label>
+            <label for="fullstack">
+              <input type="radio" name="fullstack" id="fullstack" />
+              Full-Stack
+            </label>
+          </div>
+          <div class="main__checkbox">
+            <span>Technologies</span>
+            <label for="html">
+              <input type="checkbox" name="html" id="html" />
+              HTML
+            </label>
+            <label for="html">
+              <input type="checkbox" name="CSS" id="CSS" />
+              CSS
+            </label>
+            <label for="html">
+              <input type="checkbox" name="Javascript" id="Javascript" />
+              Javascript
+            </label>
+            <label for="html">
+              <input type="checkbox" name="NodeJs" id="NodeJs" />
+              NodeJs
+            </label>
+            <label for="html">
+              <input type="checkbox" name="React" id="React" />
+              React
+            </label>
+            <label for="html">
+              <input type="checkbox" name="Angular" id="Angular" />
+              Angular
+            </label>
+            <label for="html">
+              <input type="checkbox" name="Vue" id="Vue" />
+              VueJs
+            </label>
+          </div>
+          <div class="main__button">
+            <button type="submit">Apply for the job</button>
+          </div>
+        </form>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

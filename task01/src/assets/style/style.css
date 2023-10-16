@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  max-height: 70vh;
+}
+.main__left {
+  height: 100%;
+  width: 30%;
+}
+.main__left img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.main__form {
+  display: flex;
+  flex-direction: column;
+}
