@@ -34,6 +34,7 @@ body {
 }
 .form-title h2 {
   margin: 1rem 0 1rem;
+  text-align: center;
 }
 .main__radios {
   display: flex;
@@ -49,8 +50,9 @@ body {
   gap: .5rem;
 }
 .checkbox {
-display: flex;
-flex-direction: column;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
 }
 .input-text {
   display: flex;
