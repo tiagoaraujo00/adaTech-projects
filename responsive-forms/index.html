@@ -12,7 +12,7 @@
       <section class="container__right">
         <img
           src="/responsive-forms/assets/img/undraw_sign_up_n6im.svg"
-          alt=""
+          alt="form-img"
           srcset=""
         />
       </section>
@@ -21,6 +21,94 @@
           <div class="form-header">
             <div class="title">
               <h1>Cadastre-se</h1>
+            </div>
+            <div class="login-button">
+              <button>Entrar</button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="input-box">
+              <label for="firstanme">Nome:</label>
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                placeholder="Seu primeiro nome aqui"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="lastname">Sobrenome:</label>
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                placeholder="Seu sobrenome aqui"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu email aqui"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="tel">Telefone:</label>
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="(xx) xxxxx-xxxx"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="password">Senha:</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Digite sua senha aqui"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <label for="confirm-password">Confirme sua senha:</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                placeholder="Confirme sua senha aqui"
+                required
+              />
+            </div>
+          </div>
+          <div class="gender-inputs">
+            <div class="gender-title">
+              <h6>Gênero</h6>
+            </div>
+            <div class="gender-group">
+              <div class="gender-input">
+                <input type="radio" name="female" id="female">
+                <label for="female">Feminino</label>
+              </div>
+              <div class="gender-input">
+                <input type="radio" name="male" id="male">
+                <label for="male">Masculino</label>
+              </div>
+              <div class="gender-input">
+                <input type="radio" name="non-binary" id="non-binary">
+                <label for="non-binary">Não-binário</label>
+              </div>
+              <div class="gender-input">
+                <input type="radio" name="unknown" id="unknown">
+                <label for="unknown">Prefiro não informar</label>
+              </div>
             </div>
           </div>
         </form>
