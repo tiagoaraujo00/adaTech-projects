@@ -30,13 +30,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 .form-title h2 {
-  padding: 2rem 0 2rem 0;
+  margin: 1rem 0 1rem;
 }
 .main__radios {
   display: flex;
   flex-direction: column;
+  gap: .8rem;
+}
+.span-radio {
+  padding-bottom: .8rem;
 }
 .main__checkbox {
   display: flex;
@@ -44,10 +49,11 @@ body {
   gap: .5rem;
 }
 .checkbox {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+display: flex;
+flex-direction: column;
 }
 .input-text {
   display: flex;
   flex-direction: column;
+  gap: .8rem;
 }
