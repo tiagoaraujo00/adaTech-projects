@@ -39,3 +39,24 @@ body {
   background-color: #FFF;
   width: 50%;
 }
+.form-header {
+  display: flex;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+}
+.login-button {
+  display: flex;
+  align-items: center;
+}
+.login-button button {
+  border: none;
+  background-color: #6c63ff;
+  padding: .4rem 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+.login-button button:hover {
+  background-color: #6b63fff1;
+}
