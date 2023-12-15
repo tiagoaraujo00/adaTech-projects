@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>FinPOO</title>
-</head>
-<body>
-  <header>
-    <div>
-      <h1>FinPOO</h1>
-      <p>O seu banco medieval!</p>
-    </div>
-  </header>
-  <main>
-    <div>
-      <form action="">
-        <label for=" "></label>
-        <input type="text" name="" id="">
-      </form>
-    </div>
-  </main>
-  <script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinPOO</title>
+  </head>
+  <body>
+    <h1>FinPOO - Fintech</h1>
+
+    <label for="nomeCliente">Nome do Cliente:</label>
+    <input
+      type="text"
+      id="nomeCliente"
+      placeholder="Digite o nome do cliente"
+    />
+    <label for="valorOperacao">Valor da Operação:</label>
+    <input type="number" id="valorOperacao" placeholder="Informe o valor" />
+
+    <label for="tipoDebito">Débito</label>
+    <input type="radio" id="tipoDebito" name="tipoOperacao" value="débito" />
+
+    <label for="tipoCredito">Crédito</label>
+    <input type="radio" id="tipoCredito" name="tipoOperacao" value="crédito" />
+
+    <button onclick="realizarOperacao(historico)">Realizar Operação</button>
+    <button onclick="mostrarHistorico(historico)">Mostrar Histórico</button>
+    <button onclick="limparResultado()">Limpar Resultado</button>
+
+    <div id="resultadoOperacoes"></div>
+    <div id="historicoTransacoes"></div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
